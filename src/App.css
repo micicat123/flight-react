@@ -1,0 +1,75 @@
+/* navbar */
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+.navbar-brand:hover {
+  text-decoration: underline;
+}
+a.bg-light:hover{
+  background-color: transparent !important;
+}
+
+/* HEADER */
+.header{
+  background-color: rgb(230, 230, 87);
+  height: 8em;
+  position: relative;
+  margin-bottom: 1.5%;
+}
+.heading{
+  position: absolute;
+  bottom: 22.5%;
+  padding-left: 3.75%;
+  display: inline;
+}
+.icon{
+  display: inline;
+  height: 23em;
+  position: absolute;
+
+  right: 6%;
+  top: 0;
+  bottom: 0
+}
+
+/* CARDS */
+.flexbox{
+  display: flex;
+  gap: 5em;
+  justify-content: space-evenly;
+}
+h2{
+  text-align: center;
+  margin: 4% 0;
+  -webkit-text-stroke: 0.2px white; 
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 1.75rem;
+}
+.card{
+  height: 22em;
+  width: 20em;
+  border: none;
+}
+img{
+  display: block;
+  margin: auto;
+  padding: 10%;
+}
+.insidecard{
+  border: 1px solid white;
+  background-color: rgba(32, 178, 171, 0.622);
+}
+hr {
+  border: 0;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  margin: 0 13%;
+}
+.sport-link:hover{
+  text-decoration: none;
+}
+.btn:hover .button-text-color{
+  color: white !important;
+}
