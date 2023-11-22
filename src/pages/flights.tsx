@@ -20,7 +20,7 @@ const Flights = (props:any) => {//fly_from, fly_to, date_from, date_to
                 headers: {
                   'Accept': 'application/json',
                   'Content-Type': 'application/json',
-                  'apikey': 'RR4--s7kkNiBJ5gJe4DlXa_kXppE7C0A'
+                  'apikey': 'api_key'
                 },
                 params: {
                   'fly_from': location.state.fly_from,
